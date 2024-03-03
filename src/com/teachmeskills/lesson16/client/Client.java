@@ -3,7 +3,6 @@ package com.teachmeskills.lesson16.client;
 import com.teachmeskills.lesson16.order.Order;
 
 import java.util.ArrayList;
-
 /**
  * This class is used for describing a client
  */
