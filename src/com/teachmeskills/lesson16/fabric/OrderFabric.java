@@ -1,7 +1,9 @@
-package fabric;
+package com.teachmeskills.lesson16.fabric;
 
-import order.Order;
-
+import com.teachmeskills.lesson16.order.Order;
+/**
+ * This class is used to create objects of the class Order
+ */
 public class OrderFabric {
     public static Order order1 = new Order(120.05, "order1");
     public static Order order2 = new Order(17.04, "order2");

@@ -1,5 +1,7 @@
-package order;
-
+package com.teachmeskills.lesson16.order;
+/**
+ * This class is used for describing an order
+ */
 public class Order {
     private  double price;
     private String description;
@@ -23,5 +25,13 @@ public class Order {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "price = " + price +
+                ", description = '" + description + '\'' +
+                '}';
     }
 }

@@ -1,9 +1,12 @@
-package client;
+package com.teachmeskills.lesson16.client;
 
-import order.Order;
+import com.teachmeskills.lesson16.order.Order;
 
 import java.util.ArrayList;
 
+/**
+ * This class is used for describing a client
+ */
 public class Client {
     private String name;
     private int age;
@@ -47,5 +50,15 @@ public class Client {
 
     public void setBucketOrder(ArrayList<Order> bucketOrder) {
         this.bucketOrder = bucketOrder;
+    }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "name = '" + name + '\'' +
+                ", age = " + age +
+                ", registrationDate = '" + registrationDate + '\'' +
+                ", bucketOrder = " + bucketOrder +
+                '}';
     }
 }
